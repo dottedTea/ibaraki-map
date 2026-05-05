@@ -33,7 +33,8 @@ export const MapRoot = () => {
                   background={"#879A6B"}
                   borderColor={"#000000"}
                   glyphColor={"#00FF00"}
-                  glyph={"🍵"}
+                  glyphText="🍵"
+                  glyphSrc
                 />
               </AdvancedMarker>
             </div>

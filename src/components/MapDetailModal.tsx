@@ -24,9 +24,11 @@ export const MapDetailModal = ({
           <YouTubeEmbed
             videoid={videoId}
             params={videoStartTime ? `start=${videoStartTime}` : undefined}
-            style="max-height: 200px"
+            style="margin: 0 auto;"
           />
-          <p className="mt-1 text-xs text-black/40">{videoTitle}</p>
+          <p className="md:text-center mt-1 text-xs text-black/40">
+            {videoTitle}
+          </p>
         </div>
       </div>
     </GlobalModal>

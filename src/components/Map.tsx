@@ -1,6 +1,11 @@
 "use client";
 
-import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
+import {
+  AdvancedMarker,
+  APIProvider,
+  Map,
+  Pin,
+} from "@vis.gl/react-google-maps";
 import { useState } from "react";
 import { MapDetailModal } from "@/components/MapDetailModal";
 import type { Spot } from "@/types/spot";
@@ -15,21 +20,26 @@ export const MapRoot = () => {
         <Map
           defaultCenter={{ lat: 36.37091659865136, lng: 140.47630417531485 }}
           defaultZoom={10}
+          mapId="DEMO_MAP_ID"
           disableDefaultUI
         >
           {datas.map((data) => (
             <div key={data.name}>
-              <Marker
+              <AdvancedMarker
                 position={data.position}
-                onClick={() => {
-                  setOpenModalData(data);
-                }}
-              />
+                onClick={() => setOpenModalData(data)}
+              >
+                <Pin
+                  background={"#879A6B"}
+                  borderColor={"#000000"}
+                  glyphColor={"#00FF00"}
+                  glyph={"🍵"}
+                />
+              </AdvancedMarker>
             </div>
           ))}
         </Map>
       </APIProvider>
-
       <MapDetailModal
         open={openModalData !== undefined}
         onOpenChange={(open) => {
@@ -39,6 +49,7 @@ export const MapRoot = () => {
         }}
         {...openModalData}
       />
+      m
     </>
   );
 };

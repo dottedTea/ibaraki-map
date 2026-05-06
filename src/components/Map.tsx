@@ -48,7 +48,6 @@ export const MapRoot = () => {
         }}
         {...openModalData}
       />
-      m
     </>
   );
 };

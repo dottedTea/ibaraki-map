@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+html {
+  overflow: hidden;
+}
 
 body {
   color: black;

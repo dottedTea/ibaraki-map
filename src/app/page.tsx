@@ -7,7 +7,7 @@ export default function Home() {
       <header
         className="
           fixed top-0 left-0 right-0 z-10 rounded-lg
-          m-2 px-2 py-1 text-black bg-white/80
+          m-2 px-2 py-1 text-black bg-white/80 shadow-md
           grid grid-cols-[auto_1fr_auto] gap-2 items-baseline
         "
       >

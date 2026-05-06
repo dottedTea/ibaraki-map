@@ -32,7 +32,7 @@ export const MapRoot = () => {
                 <Pin
                   background={"#879A6B"}
                   borderColor={"#000000"}
-                  glyphSrc="/icon.png"
+                  glyphSrc="/glyph.png"
                 />
               </AdvancedMarker>
             </div>

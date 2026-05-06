@@ -1,7 +1,7 @@
 [
   {
     "name": "古河公方公園",
-    "municipality": "古河市",
+    "address": "茨城県古河市鴻巣399-1",
     "description": "広大な敷地にたくさんの木々や草花がある公園で、春には約1,800本の桃の花が咲きます。",
     "videoId": "s__8sbUlyyE",
     "videoTitle": "【茨城VLOG】歴史を感じさせる街「古河」で日帰り旅行【#いばらき観光マイスター が行く】",
@@ -9,11 +9,12 @@
     "position": {
       "lat": 36.17774617531447,
       "lng": 139.70202134417787
-    }
+    },
+    "url": "https://koga-kousya.or.jp/koga-park/"
   },
   {
     "name": "吉田茶園 茶寮HANARE",
-    "municipality": "古河市",
+    "address": "茨城県古河市大堤1185-3",
     "description": "180年以上の歴史を持つ茶園が営む、古民家を改装した趣のある茶寮。",
     "videoId": "s__8sbUlyyE",
     "videoTitle": "【茨城VLOG】歴史を感じさせる街「古河」で日帰り旅行【#いばらき観光マイスター が行く】",
@@ -21,149 +22,188 @@
     "position": {
       "lat": 36.17803463726647,
       "lng": 139.71410201181428
-    }
+    },
+    "url": "https://saryo-hanare.studio.site/"
+  },
+  {
+    "name": "ぬた屋本店",
+    "address": "茨城県古河市中央町3-8-5",
+    "description": "古河の伝統的な川魚の甘露煮を販売するお店の本店。",
+    "videoId": "s__8sbUlyyE",
+    "videoTitle": "【茨城VLOG】歴史を感じさせる街「古河」で日帰り旅行【#いばらき観光マイスター が行く】",
+    "videoStartTime": 537,
+    "position": {
+      "lat": 36.19131947982323,
+      "lng": 139.7035880306846
+    },
+    "url": "https://nutaya.co.jp/"
   },
   {
     "name": "日立市かみね動物園",
-    "municipality": "日立市",
+    "address": "茨城県日立市宮田町5-2-22",
     "description": "約100種540点の動物たちが飼育されている、太平洋が望める動物園。",
     "videoId": "JMIwl-dIyV0",
     "videoTitle": "日立市かみね動物園が想像以上に良かった #茨城県 #いばらき観光マイスター",
     "position": {
       "lat": 36.606969435414285,
       "lng": 140.65835496950191
-    }
+    },
+    "url": "https://www.city.hitachi.lg.jp/zoo/"
   },
   {
     "name": "愛樹マロン",
-    "municipality": "笠間市",
+    "address": "茨城県笠間市下郷4147-1",
     "description": "特許を取得した特別な栽培方法で作られたブランド栗とそのショップ。",
     "videoId": "LySVkR9Uzig",
     "videoTitle": "秋の味覚といえば栗！特許取得の栽培法でつくられた「愛樹マロン」を食べてみた #茨城県 #いばらき観光マイスター",
     "position": {
       "lat": 36.2973281227401,
       "lng": 140.2742247908996
-    }
+    },
+    "url": "https://www.aiki-marron.jp/"
   },
   {
     "name": "牛久沼水辺公園",
-    "municipality": "龍ケ崎市",
+    "address": "茨城県龍ケ崎市佐貫町395",
     "description": "牛久沼のほとりにある公園で、広いグラウンドがあり、白鳥などのバードウォッチングも楽しめます。",
     "videoId": "FQQjDGAJWcc",
     "videoTitle": "バードウォッチングできる公園が大変のどかでした #茨城県 #いばらき観光マイスター",
     "position": {
       "lat": 35.93727206708185,
       "lng": 140.13118068112024
-    }
+    },
+    "url": "https://www.city.ryugasaki.ibaraki.jp/kanko/filmcommission/locationlibrary/park/2013091800129.html"
   },
   {
     "name": "ポケふた 神栖市",
-    "municipality": "神栖市",
+    "address": "茨城県神栖市木崎1203-9",
     "description": "マラカッチとオドリドリ、そして日川浜海水浴場が描かれたマンホールの蓋です。",
     "videoId": "Xc9acEn_ytk",
     "videoTitle": "ついに茨城県に #ポケふた が登場！なぜマラカッチ？ #ポケモン #茨城県",
     "position": {
       "lat": 35.897153395754785,
       "lng": 140.6490003673823
-    }
+    },
+    "url": "https://local.pokemon.jp/manhole/desc/409/"
   },
   {
     "name": "ポケふた つくば市",
-    "municipality": "つくば市",
+    "address": "茨城県つくば市吾妻2-7-5",
     "description": "宇宙を飛行するレックウザが描かれたマンホールの蓋です。",
     "videoId": "FrfmGVW12Dg",
     "videoTitle": "伝説のポケモンが茨城の #ポケふた に...！宇宙を感じます #shorts #ポケモン #茨城県",
     "position": {
       "lat": 36.08585057267268,
       "lng": 140.1107217340023
-    }
+    },
+    "url": "https://local.pokemon.jp/manhole/desc/411/"
   },
   {
     "name": "ポケふた 水戸市",
-    "municipality": "水戸市",
+    "address": "茨城県水戸市見川1-1251",
     "description": "ジャローダ・ナットレイ・ハーデリアが描かれたマンホールの蓋です。",
     "videoId": "w5BWqpOtNIA",
     "videoTitle": "水戸市に詳しい方...知恵をお貸しください #shorts #ポケモン #茨城県",
     "position": {
       "lat": 36.37229206065512,
       "lng": 140.45218391477187
-    }
+    },
+    "url": "https://local.pokemon.jp/manhole/desc/413/"
   },
   {
     "name": "ポケふた 筑西市",
-    "municipality": "筑西市",
+    "address": "茨城県筑西市川澄1850",
     "description": "グレッグルとハラバリー、そして筑波山が描かれたマンホールの蓋です。",
     "videoId": "a41gshqsH2Q",
     "videoTitle": "カエルポケモンが #ポケふた に採用された理由とは？ #ポケモン #茨城県",
     "position": {
       "lat": 36.322410820306395,
       "lng": 139.99391305750666
-    }
+    },
+    "url": "https://local.pokemon.jp/manhole/desc/410/"
   },
   {
     "name": "ポケふた 常陸太田市",
-    "municipality": "常陸太田市",
+    "address": "茨城県常陸太田市下河合町1016-1",
     "description": "ボーマンダとルチャブル、そして竜神大吊橋が描かれたマンホールの蓋です。",
     "videoId": "_Ua2q2YgqxI",
     "videoTitle": "大人気ポケモンのボーマンダが常陸太田市を滑空！ #ポケモン #茨城県",
     "position": {
       "lat": 36.510613596448785,
       "lng": 140.52556788769687
-    }
+    },
+    "url": "https://local.pokemon.jp/manhole/desc/412/"
   },
   {
     "name": "ロゲットカード 牛久市",
-    "municipality": "牛久市",
+    "address": "茨城県牛久市牛久町282（牛久駅）",
     "description": "牛久大仏と牛久シャトーで入手できる、茨城初のロゲットカードです。",
     "videoId": "s-c_l2a0qGE",
     "videoTitle": "茨城初の #ロゲットカード が誕生！コレクションしたくなるね #茨城県 #いばらき観光マイスター",
     "position": {
       "lat": 35.975806004635956,
       "lng": 140.1411136983132
-    }
+    },
+    "url": "https://loget-card.jp/first.html"
   },
   {
     "name": "笠間つつじ公園",
-    "municipality": "笠間市",
+    "address": "茨城県笠間市笠間616-7",
     "description": "春には「笠間つつじまつり」が開催されており、丘一面に美しくつつじが咲きます。",
     "videoId": "2X8T4G_tBqc",
     "videoTitle": "いばらき観光マイスターが笠間に遊びに行ってきた #笠間 #茨城県 #いばらき観光マイスター",
     "position": {
       "lat": 36.38706111561401,
       "lng": 140.26244746393795
-    }
+    },
+    "url": "https://www.kasama-kankou.jp/page/dir000126.html"
+  },
+  {
+    "name": "笠間稲荷神社",
+    "address": "茨城県笠間市笠間1",
+    "description": "春には「笠間つつじまつり」が開催されており、丘一面に美しくつつじが咲きます。",
+    "videoId": "2X8T4G_tBqc",
+    "videoTitle": "いばらき観光マイスターが笠間に遊びに行ってきた #笠間 #茨城県 #いばらき観光マイスター",
+    "position": {
+      "lat": 36.3863762460318,
+      "lng": 140.25414337116442
+    },
+    "url": "http://www.kasama.or.jp/"
   },
   {
     "name": "水戸市水道低区配水塔",
-    "municipality": "水戸市",
+    "address": "茨城県水戸市北見町126-14",
     "description": "昔に良質な水道水を市民に提供するために造られた、ゴシック風装飾が施されている配水塔です。",
     "videoId": "LuSINPTmfvw",
     "videoTitle": "あるポケモンが茨城に来た理由が分かりました #ポケモン #茨城県",
     "position": {
       "lat": 36.37817279491817,
       "lng": 140.47546482897158
-    }
+    },
+    "url": "https://www.city.mito.lg.jp/site/education/4256.html"
   },
   {
     "name": "牛久大仏",
-    "municipality": "牛久市",
+    "address": "茨城県牛久市久野町2083",
     "description": "ギネス世界記録に認定された、120mの大きさを誇る青銅製大仏です。",
     "videoId": "E2e11LUiIGY",
     "videoTitle": "ギネスにも認定された巨大な大仏様を知っていますか？ #茨城県 #いばらき観光マイスター",
     "position": {
       "lat": 35.982922807554104,
       "lng": 140.22026550615513
-    }
+    },
+    "url": "https://daibutu.net/"
   },
   {
     "name": "大杉神社",
-    "municipality": "稲敷市",
+    "address": "茨城県稲敷市阿波958",
     "description": "日本唯一の夢むすび大明神として知られ、境内には馬の頭の形をした縁起の良い御神木もあります。",
     "videoId": "lXWaSaqv5EY",
     "videoTitle": "午年の2026年にお参りに行くならココ！ #茨城県 #いばらき観光マイスター",
     "position": {
       "lat": 35.95373590519651,
       "lng": 140.38204706673378
-    }
+    },
+    "url": "https://oosugi-jinja.or.jp/"
   }
 ]

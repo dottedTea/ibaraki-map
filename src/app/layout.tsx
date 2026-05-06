@@ -24,6 +24,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/icon.png" type="image/png" sizes="256" />
+        <link
+          rel="apple-touch-icon"
+          href="/icon.png"
+          type="image/png"
+          sizes="256"
+        />
+      </head>
       <body
         className={`${notoSansJP.variable} ${yujiSyuku.variable} antialiased`}
       >

@@ -2,8 +2,8 @@
 export type Spot = {
   /** 名前 */
   name: string;
-  /** 市区町村 */
-  municipality: string;
+  /** 住所 */
+  address: string;
   /** 概要 */
   description: string;
   /** 動画ID */
@@ -12,4 +12,6 @@ export type Spot = {
   videoTitle: string;
   /** 動画の開始時間(秒) */
   videoStartTime?: number;
+  /** URL */
+  url: string;
 };

@@ -1,6 +1,7 @@
 import type { DialogRootProps } from "@base-ui/react/dialog";
 import { YouTubeEmbed } from "@next/third-parties/google";
 import { RiFileCopyLine, RiLink } from "react-icons/ri";
+import { GlobalButton } from "@/components/GlobalButton";
 import { GlobalModal } from "@/components/GlobalModal";
 
 import type { Spot } from "@/types/spot";
@@ -32,13 +33,9 @@ export const MapDetailModal = ({
       <div className="overflow-y-scroll h-full space-y-4">
         <div className="flex items-center">
           <p className="text-xs text-black/40">{address}</p>
-          <button
-            type="button"
-            onClick={handleCopyAddress}
-            className="w-8 h-8 grid place-items-center rounded-full hover:bg-black/10 transition-colors cursor-pointer"
-          >
+          <GlobalButton type="button" onClick={handleCopyAddress}>
             <RiFileCopyLine className="text-black/40 w-4 h-4" />
-          </button>
+          </GlobalButton>
         </div>
         <p className="text-black/60">{description}</p>
         <div>
@@ -52,15 +49,10 @@ export const MapDetailModal = ({
           </p>
         </div>
         <div className="flex justify-center">
-          <a
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-[#879A6B] rounded-full px-5 py-2 hover:bg-black/10 transition-colors cursor-pointer"
-          >
-            <RiLink className="w-5 h-5" />
-            <span className="text-sm">ウェブサイト</span>
-          </a>
+          <GlobalButton type="a" href={url} target="_blank">
+            <RiLink className="w-5 h-5 text-[#879A6B]" />
+            <span className="text-sm text-[#879A6B]">ウェブサイト</span>
+          </GlobalButton>
         </div>
       </div>
     </GlobalModal>

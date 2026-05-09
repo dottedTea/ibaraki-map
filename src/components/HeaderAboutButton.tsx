@@ -8,20 +8,17 @@ import {
   RiTwitterXLine,
   RiYoutubeLine,
 } from "react-icons/ri";
+import { GlobalButton } from "@/components/GlobalButton";
 import { GlobalModal } from "@/components/GlobalModal";
 
-export const GlobalAboutButton = () => {
+export const HeaderAboutButton = () => {
   const [isAboutModalOpen, setIsAboutModalOpen] = useState<boolean>(false);
 
   return (
     <>
-      <button
-        type="button"
-        onClick={() => setIsAboutModalOpen(true)}
-        className="w-10 h-10 grid place-items-center rounded-full hover:bg-black/10 transition-colors cursor-pointer"
-      >
+      <GlobalButton type="button" onClick={() => setIsAboutModalOpen(true)}>
         <RiInformation2Line className="text-black/60 w-5 h-5" />
-      </button>
+      </GlobalButton>
 
       <GlobalModal
         open={isAboutModalOpen}
@@ -46,33 +43,26 @@ export const GlobalAboutButton = () => {
             ※システムのバグにより、ピンの位置が実際の位置とズレている場合がございます。訪れる際には、各スポットの公式サイトなどをご確認ください。
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-x-2 items-center">
-            <a
-              href="https://dottedtea.me/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-[#879A6B] rounded-full px-5 py-2 hover:bg-black/10 transition-colors cursor-pointer"
-            >
-              <RiHome4Line className="w-5 h-5" />
-              <span className="text-sm">ホームページ</span>
-            </a>
-            <a
+            <GlobalButton type="a" href="https://dottedtea.me/" target="_blank">
+              <RiHome4Line className="w-5 h-5 text-[#879A6B]" />
+              <span className="text-sm text-[#879A6B]">ホームページ</span>
+            </GlobalButton>
+            <GlobalButton
+              type="a"
               href="https://www.youtube.com/@dottedTea"
               target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-[#ff0033] rounded-full px-5 py-2 hover:bg-black/10 transition-colors cursor-pointer"
             >
-              <RiYoutubeLine className="w-5 h-5" />
-              <span className="text-sm">YouTube</span>
-            </a>
-            <a
+              <RiYoutubeLine className="w-5 h-5 text-[#ff0033]" />
+              <span className="text-sm text-[#ff0033]">YouTube</span>
+            </GlobalButton>
+            <GlobalButton
+              type="a"
               href="https://x.com/dottedTea"
               target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-[#0F1419] rounded-full px-5 py-2 hover:bg-black/10 transition-colors cursor-pointer"
             >
-              <RiTwitterXLine className="w-5 h-5" />
-              <span className="text-sm">X（旧Twitter）</span>
-            </a>
+              <RiTwitterXLine className="w-5 h-5 text-[#0F1419]" />
+              <span className="text-sm text-[#0F1419]">X（旧Twitter）</span>
+            </GlobalButton>
           </div>
         </div>
       </GlobalModal>

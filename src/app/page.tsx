@@ -1,5 +1,5 @@
-import { GlobalAboutButton } from "@/components/GlobalAboutButton";
-import { MapRoot as Map } from "@/components/Map";
+import { HeaderAboutButton } from "@/components/HeaderAboutButton";
+import { Map } from "@/components/Map";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       >
         <h1 className="text-xl">さしまっぷ</h1>
         <p className="text-xs text-black/60">茨城県の観光スポット紹介マップ</p>
-        <GlobalAboutButton />
+        <HeaderAboutButton />
       </header>
       <main className="w-screen h-lvh">
         <Map />

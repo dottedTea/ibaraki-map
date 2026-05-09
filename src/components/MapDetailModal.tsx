@@ -30,14 +30,16 @@ export const MapDetailModal = ({
 
   return (
     <GlobalModal title={name} {...restProps}>
-      <div className="overflow-y-scroll h-full space-y-4">
-        <div className="flex items-center">
-          <p className="text-xs text-black/40">{address}</p>
-          <GlobalButton type="button" onClick={handleCopyAddress}>
-            <RiFileCopyLine className="text-black/40 w-4 h-4" />
-          </GlobalButton>
-        </div>
-        <p className="text-black/60">{description}</p>
+      <div className="overflow-y-scroll h-full">
+        {address !== "" && (
+          <div className="flex items-center">
+            <p className="text-xs text-black/40">{address}</p>
+            <GlobalButton type="button" onClick={handleCopyAddress}>
+              <RiFileCopyLine className="text-black/40 w-4 h-4" />
+            </GlobalButton>
+          </div>
+        )}
+        <p className="py-4 text-black/60">{description}</p>
         <div>
           <YouTubeEmbed
             videoid={videoId}

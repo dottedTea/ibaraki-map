@@ -14,6 +14,22 @@ import datas from "$/data.json";
 export const Map = () => {
   const [openModalData, setOpenModalData] = useState<Spot>();
 
+  /** ピンのタイプから背景色を取得 */
+  const getBackgroundColor = (type: Spot["type"]) => {
+    switch (type) {
+      case "spot":
+        return "#879A6B";
+      case "gourmet":
+        return "#9A6B70";
+      case "souvenir":
+        return "#6B9A96";
+      case "event":
+        return "#7E6B9A";
+      default:
+        return "#879A6B";
+    }
+  };
+
   return (
     <>
       <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY ?? ""}>
@@ -30,7 +46,7 @@ export const Map = () => {
                 onClick={() => setOpenModalData(data)}
               >
                 <Pin
-                  background={"#879A6B"}
+                  background={getBackgroundColor(data.type)}
                   borderColor={"#000000"}
                   glyphSrc="/glyph.png"
                 />

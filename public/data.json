@@ -1,6 +1,7 @@
 [
   {
     "name": "古河公方公園",
+    "type": "spot",
     "address": "茨城県古河市鴻巣399-1",
     "description": "広大な敷地にたくさんの木々や草花がある公園で、春には約1,800本の桃の花が咲きます。",
     "videoId": "s__8sbUlyyE",
@@ -14,6 +15,7 @@
   },
   {
     "name": "吉田茶園 茶寮HANARE",
+    "type": "gourmet",
     "address": "茨城県古河市大堤1185-3",
     "description": "180年以上の歴史を持つ茶園が営む、古民家を改装した趣のある茶寮。",
     "videoId": "s__8sbUlyyE",
@@ -27,6 +29,7 @@
   },
   {
     "name": "ぬた屋本店",
+    "type": "souvenir",
     "address": "茨城県古河市中央町3-8-5",
     "description": "古河の伝統的な川魚の甘露煮を販売するお店の本店。",
     "videoId": "s__8sbUlyyE",
@@ -40,6 +43,7 @@
   },
   {
     "name": "日立市かみね動物園",
+    "type": "spot",
     "address": "茨城県日立市宮田町5-2-22",
     "description": "約100種540点の動物たちが飼育されている、太平洋が望める動物園。",
     "videoId": "JMIwl-dIyV0",
@@ -52,6 +56,7 @@
   },
   {
     "name": "愛樹マロン",
+    "type": "gourmet",
     "address": "茨城県笠間市下郷4147-1",
     "description": "特許を取得した特別な栽培方法で作られたブランド栗とそのショップ。",
     "videoId": "LySVkR9Uzig",
@@ -64,6 +69,7 @@
   },
   {
     "name": "牛久沼水辺公園",
+    "type": "spot",
     "address": "茨城県龍ケ崎市佐貫町395",
     "description": "牛久沼のほとりにある公園で、広いグラウンドがあり、白鳥などのバードウォッチングも楽しめます。",
     "videoId": "FQQjDGAJWcc",
@@ -76,6 +82,7 @@
   },
   {
     "name": "ポケふた 神栖市",
+    "type": "spot",
     "address": "茨城県神栖市木崎1203-9",
     "description": "マラカッチとオドリドリ、そして日川浜海水浴場が描かれたマンホールの蓋です。",
     "videoId": "Xc9acEn_ytk",
@@ -88,6 +95,7 @@
   },
   {
     "name": "ポケふた つくば市",
+    "type": "spot",
     "address": "茨城県つくば市吾妻2-7-5",
     "description": "宇宙を飛行するレックウザが描かれたマンホールの蓋です。",
     "videoId": "FrfmGVW12Dg",
@@ -100,6 +108,7 @@
   },
   {
     "name": "ポケふた 水戸市",
+    "type": "spot",
     "address": "茨城県水戸市見川1-1251",
     "description": "ジャローダ・ナットレイ・ハーデリアが描かれたマンホールの蓋です。",
     "videoId": "w5BWqpOtNIA",
@@ -112,6 +121,7 @@
   },
   {
     "name": "ポケふた 筑西市",
+    "type": "spot",
     "address": "茨城県筑西市川澄1850",
     "description": "グレッグルとハラバリー、そして筑波山が描かれたマンホールの蓋です。",
     "videoId": "a41gshqsH2Q",
@@ -124,6 +134,7 @@
   },
   {
     "name": "ポケふた 常陸太田市",
+    "type": "spot",
     "address": "茨城県常陸太田市下河合町1016-1",
     "description": "ボーマンダとルチャブル、そして竜神大吊橋が描かれたマンホールの蓋です。",
     "videoId": "_Ua2q2YgqxI",
@@ -136,7 +147,7 @@
   },
   {
     "name": "ロゲットカード 牛久市",
-    "address": "茨城県牛久市牛久町282（牛久駅）",
+    "type": "souvenir",
     "description": "牛久大仏と牛久シャトーで入手できる、茨城初のロゲットカードです。",
     "videoId": "s-c_l2a0qGE",
     "videoTitle": "茨城初の #ロゲットカード が誕生！コレクションしたくなるね #茨城県 #いばらき観光マイスター",
@@ -147,9 +158,10 @@
     "url": "https://loget-card.jp/first.html"
   },
   {
-    "name": "笠間つつじ公園",
+    "name": "笠間つつじまつり",
+    "type": "event",
     "address": "茨城県笠間市笠間616-7",
-    "description": "春には「笠間つつじまつり」が開催されており、丘一面に美しくつつじが咲きます。",
+    "description": "笠間つつじ公園にて春に開催されており、丘一面に美しくつつじが咲きます。",
     "videoId": "2X8T4G_tBqc",
     "videoTitle": "いばらき観光マイスターが笠間に遊びに行ってきた #笠間 #茨城県 #いばらき観光マイスター",
     "position": {
@@ -159,9 +171,23 @@
     "url": "https://www.kasama-kankou.jp/page/dir000126.html"
   },
   {
+    "name": "笠間の陶炎祭（ひまつり）",
+    "type": "event",
+    "address": "茨城県笠間市笠間2345",
+    "description": "笠間つつじ公園にてGWごろ開催されている、伝統的な「笠間焼」を中心とした大規模陶器市。",
+    "videoId": "2X8T4G_tBqc",
+    "videoTitle": "いばらき観光マイスターが笠間に遊びに行ってきた #笠間 #茨城県 #いばらき観光マイスター",
+    "position": {
+      "lat": 36.37349427955254,
+      "lng": 140.2667088210669
+    },
+    "url": "https://www.kasama-kankou.jp/page/dir000126.html"
+  },
+  {
     "name": "笠間稲荷神社",
+    "type": "spot",
     "address": "茨城県笠間市笠間1",
-    "description": "春には「笠間つつじまつり」が開催されており、丘一面に美しくつつじが咲きます。",
+    "description": "日本三大稲荷のうちの1つ（諸説あり）で、五穀豊穣などのご利益がある神社。",
     "videoId": "2X8T4G_tBqc",
     "videoTitle": "いばらき観光マイスターが笠間に遊びに行ってきた #笠間 #茨城県 #いばらき観光マイスター",
     "position": {
@@ -172,6 +198,7 @@
   },
   {
     "name": "水戸市水道低区配水塔",
+    "type": "spot",
     "address": "茨城県水戸市北見町126-14",
     "description": "昔に良質な水道水を市民に提供するために造られた、ゴシック風装飾が施されている配水塔です。",
     "videoId": "LuSINPTmfvw",
@@ -184,6 +211,7 @@
   },
   {
     "name": "牛久大仏",
+    "type": "spot",
     "address": "茨城県牛久市久野町2083",
     "description": "ギネス世界記録に認定された、120mの大きさを誇る青銅製大仏です。",
     "videoId": "E2e11LUiIGY",
@@ -196,6 +224,7 @@
   },
   {
     "name": "大杉神社",
+    "type": "spot",
     "address": "茨城県稲敷市阿波958",
     "description": "日本唯一の夢むすび大明神として知られ、境内には馬の頭の形をした縁起の良い御神木もあります。",
     "videoId": "lXWaSaqv5EY",

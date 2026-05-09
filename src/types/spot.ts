@@ -2,8 +2,10 @@
 export type Spot = {
   /** 名前 */
   name: string;
+  /** ピンのタイプ */
+  type: "spot" | "gourmet" | "souvenir" | "event";
   /** 住所 */
-  address: string;
+  address?: string;
   /** 概要 */
   description: string;
   /** 動画ID */

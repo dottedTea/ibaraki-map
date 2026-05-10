@@ -4,9 +4,9 @@ import { RiFileCopyLine, RiLink } from "react-icons/ri";
 import { GlobalButton } from "@/components/GlobalButton";
 import { GlobalModal } from "@/components/GlobalModal";
 
-import type { Spot } from "@/types/spot";
+import type { PinData } from "@/types";
 
-type MapDetailModalProps = DialogRootProps & Partial<Spot>;
+type MapDetailModalProps = DialogRootProps & Partial<PinData>;
 
 export const MapDetailModal = ({
   name = "",

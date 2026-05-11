@@ -4,8 +4,8 @@ export const PIN_TYPE = {
   SPOT: "spot",
   /** グルメ */
   GOURMET: "gourmet",
-  /** お土産 */
-  SOUVENIR: "souvenir",
+  /** アクティビティ */
+  ACTIVITY: "activity",
   /** イベント */
   EVENT: "event",
 } as const;

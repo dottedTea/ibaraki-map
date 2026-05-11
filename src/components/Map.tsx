@@ -17,7 +17,7 @@ export const Map = () => {
   const [filterValues, setFilterValues] = useState<PinType[]>([
     PIN_TYPE.SPOT,
     PIN_TYPE.GOURMET,
-    PIN_TYPE.SOUVENIR,
+    PIN_TYPE.ACTIVITY,
     PIN_TYPE.EVENT,
   ]);
 
@@ -28,7 +28,7 @@ export const Map = () => {
         return "#879A6B";
       case PIN_TYPE.GOURMET:
         return "#9A6B70";
-      case PIN_TYPE.SOUVENIR:
+      case PIN_TYPE.ACTIVITY:
         return "#6B9A96";
       case PIN_TYPE.EVENT:
         return "#7E6B9A";

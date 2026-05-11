@@ -32,7 +32,7 @@ export const MapFilter = <T extends string>({
             <RiCheckboxFill className="text-[#879A6B] w-5 h-5" />
           </Checkbox.Indicator>
         </Checkbox.Root>
-        <span className="text-shadow-md">スポット</span>
+        <span className="text-shadow-md text-shadow-white">スポット</span>
       </label>
 
       <label
@@ -49,24 +49,24 @@ export const MapFilter = <T extends string>({
             <RiCheckboxFill className="text-[#9A6B70] w-5 h-5" />
           </Checkbox.Indicator>
         </Checkbox.Root>
-        <span className="text-shadow-md">グルメ</span>
+        <span className="text-shadow-md text-shadow-white">グルメ</span>
       </label>
 
       <label
-        htmlFor={PIN_TYPE.SOUVENIR}
+        htmlFor={PIN_TYPE.ACTIVITY}
         className="inline-flex items-center gap-2 rounded-full px-5 py-2 hover:bg-black/10 transition-colors cursor-pointer"
       >
         <Checkbox.Root
-          id={PIN_TYPE.SOUVENIR}
-          name={PIN_TYPE.SOUVENIR}
-          value={PIN_TYPE.SOUVENIR}
+          id={PIN_TYPE.ACTIVITY}
+          name={PIN_TYPE.ACTIVITY}
+          value={PIN_TYPE.ACTIVITY}
           className="bg-white w-5 h-5 rounded-xs shadow-md"
         >
           <Checkbox.Indicator>
             <RiCheckboxFill className="text-[#6B9A96] w-5 h-5" />
           </Checkbox.Indicator>
         </Checkbox.Root>
-        <span className="text-shadow-md">お土産</span>
+        <span className="text-shadow-md text-shadow-white">アクティビティ</span>
       </label>
 
       <label
@@ -83,7 +83,7 @@ export const MapFilter = <T extends string>({
             <RiCheckboxFill className="text-[#7E6B9A] w-5 h-5" />
           </Checkbox.Indicator>
         </Checkbox.Root>
-        <span className="text-shadow-md">イベント</span>
+        <span className="text-shadow-md text-shadow-white">イベント</span>
       </label>
     </CheckboxGroup>
   );
